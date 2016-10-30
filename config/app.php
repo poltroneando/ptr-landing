@@ -39,7 +39,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost'),
+    'url' => env('APP_URL', 'http://www.poltroneando.com.br'),
 
     /*
     |--------------------------------------------------------------------------
@@ -91,7 +91,7 @@ return [
     |
     */
 
-    'key' => env('APP_KEY'),
+    'key' => env('APP_KEY','base64:4KgTPwwWq3EjmcVSjw7HVCANhBE+2s+07sZDPxIe51Y='),
 
     'cipher' => 'AES-256-CBC',
 
