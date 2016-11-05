@@ -1,3 +1,7 @@
+@font-face{
+	font-family: champagne_limousine;
+	scr: url('Champagne & Limousines Bold.ttf') format('truetype');
+}
 .img-login{
 	margin-bottom: 25px;
 }
@@ -6,7 +10,7 @@
 	color : white;
 }
 .navbar-font,.navbar-font a{
-	color: orange;
+	/*color: orange;*/
 }
 .form-login-hide{
 	display: none;
@@ -27,4 +31,8 @@
 }
 .navbar-font .navbar-toggle .icon-bar {
     background-color: #888;
+}
+.row-texto{
+	font-family: champagne_limousine;
+	color: #083C52;
 }

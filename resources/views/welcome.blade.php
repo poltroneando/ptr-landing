@@ -48,14 +48,10 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row row-texto">
             <div class="col-md-8 col-md-offset-2">
-                <div class="panel panel-default">
-                    <div class="panel-body">
-                        <p>Deseja conhecer um novo portal com vários conteúdos sobre filmes, séries e celebridades, em que você pode interagir com pessoas com o mesmo gosto que você?
-                        Cadastre seu email que em breve você receberá informações sobre algo feito especialmente para você.</p>
-                    </div>
-                </div>
+                <p>Com catalogação e informações sobre séries e filmes, o Poltroneando é a sua nova rede social sobre cultura pop, onde você poderá criar e compartilhar suas listas, recomendações e interesses com seus amigos, além de acessar de maneira personalizada as notícias veiculadas nos maiores portais nacionais!</p>
+                <p>Para receber informações sobre o Poltroneando em primeira mão, cadastre seu email abaixo.</p>
             </div>   
         </div>
         <div class="row text-center">
