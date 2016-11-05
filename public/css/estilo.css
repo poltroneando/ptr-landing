@@ -1,6 +1,26 @@
-@font-face{
-	font-family: champagne_limousine;
-	scr: url('Champagne & Limousines Bold.ttf') format('truetype');
+@font-face {
+font-family: 'Champagne & Limousines';
+font-style: normal;
+font-weight: normal;
+src: local('Champagne & Limousines'), url('Champagne & Limousines.woff') format('woff');
+}
+@font-face {
+font-family: 'Champagne & Limousines Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Champagne & Limousines Italic'), url('Champagne & Limousines Italic.woff') format('woff');
+}
+@font-face {
+font-family: 'Champagne & Limousines Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Champagne & Limousines Bold'), url('Champagne & Limousines Bold.woff') format('woff');
+}
+@font-face {
+font-family: 'Champagne & Limousines Bold Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Champagne & Limousines Bold Italic'), url('Champagne & Limousines Bold Italic.woff') format('woff');
 }
 .img-login{
 	margin-bottom: 25px;
@@ -33,6 +53,6 @@
     background-color: #888;
 }
 .row-texto{
-	font-family: champagne_limousine;
+	font-family: 'Champagne & Limousines Bold';
 	color: #083C52;
 }
