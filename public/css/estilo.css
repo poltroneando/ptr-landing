@@ -30,7 +30,7 @@ src: local('Champagne & Limousines Bold Italic'), url('Champagne & Limousines Bo
 	color : white;
 }
 .navbar-font,.navbar-font a{
-	/*color: orange;*/
+	color: white;
 }
 .form-login-hide{
 	display: none;
@@ -55,4 +55,16 @@ src: local('Champagne & Limousines Bold Italic'), url('Champagne & Limousines Bo
 .row-texto{
 	font-family: 'Champagne & Limousines Bold';
 	color: #083C52;
+	font-style: bold;
+	font-size: 18px;
+}
+.form-campos{
+	padding-top: 20px;
+}
+.form-campos input{
+	margin-bottom: 10px; 
+}
+.botao-enviar{
+	background-color: #083C52;
+	color : white;
 }

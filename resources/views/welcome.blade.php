@@ -56,10 +56,20 @@
         </div>
         <div class="row text-center">
             <div class="col-md-6 col-md-offset-3">
-                <form class="form-horizontal" role="form" method="POST" action="{{ url('/login') }}">
+                <form class="form-horizontal form-campos" role="form" method="POST" action="{{ url('/') }}">
                     <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
+                        <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                        @foreach ($errors->get('nome') as $error)
+                            <p style="float: left;">{{ $error }}</p>
+                        @endforeach 
+                        <label for="nome" class="control-label sr-only">Nome</label>
+                        <input id="nome" type="text" class="form-control" name="nome" placeholder="Nome" value="{{ old('nome') }}">
+                        @foreach ($errors->get('email') as $error)
+                            <p style="float: left;">{{ $error }}</p>
+                        @endforeach 
                         <label for="email" class="control-label sr-only">E-Mail</label>
                         <input id="email" type="email" class="form-control" name="email" placeholder="E-Mail" value="{{ old('email') }}">
+                        <input type="submit" class="btn btn-primary botao-enviar" name="Cadastrar">
                     </div>
                 </form>
             </div>
