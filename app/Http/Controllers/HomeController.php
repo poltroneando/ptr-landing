@@ -12,7 +12,7 @@ class HomeController extends Controller
     {
     	$this->validate($request, [
     		'nome' => ['required'],
-    		'email' => ['required','email','unique']
+    		'email' => ['required','email','unique:cadastroemail']
     		]);
     	$email = new CadastroEmail;
     	$email->nome = $request->nome;
